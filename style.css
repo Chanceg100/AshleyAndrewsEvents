@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
 
+
+
 :root{
   --pink:#FC427B;
   --black:#292c2b;
@@ -8,7 +10,7 @@
 }
 
 *{
-  font-family: 'Roboto', sans-serif;
+  
   margin:0; padding: 0;
   box-sizing: border-box;
   text-decoration: none;
@@ -25,22 +27,86 @@
 html{
   font-size: 62.5%;
   overflow-x:scroll;
-  scroll-padding-top: 6.5rem;
+  scroll-padding-top: 25rem;
   scroll-behavior: smooth;
 }
 
 body{
-  position: absolute;
-  background:var(--black);
+  display: flex;
+  justify-content: center;
+  background:var(--offwhite);
 }
 
 section{
-  padding:3rem 9%;
+  padding:2rem 75%;
 }
+
+
+/* New Stuff */
+
+
+
+.half-ellipse-image { 
+
+  padding-top: 00rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 900px;
+  border-radius: 0 0 400px 400px;
+  border-style: solid; padding: 10px;
+  display: flex;
+  padding-bottom: 1;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.oval-logo-image {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px; left: 0; right: 0;
+  width: 400px;
+  height: 550px;
+  border-radius:  50%;
+  background-image: url(images/Logo.png);
+  background-size: contain;
+  background-position: center;
+  display: flex;
+ 
+}
+
+
+.main_header {
+  
+  font: small-caps;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 600px;
+  height: 550px;
+  font-size: 400%;
+  font-weight: 20;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  
+  
+}
+
+.aboutme {
+  background:var(--offwhite);
+}
+
+
+
+/* Old Stuff*/
+
 
 .btn{
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 5rem;
   border:.2rem solid #fffff8;
   font-size: 1.7rem;
   padding:.8rem 3rem;
