@@ -534,7 +534,7 @@ header .navbar a:hover{
 
 }
 
-@media (max-width:768px){
+/* @media (max-width:768px){
 
   body{
     display: flex;
@@ -652,7 +652,7 @@ header .navbar a:hover{
     width:100%;
   }
 
-}
+} */
 
 
 @media (max-width:450px){
