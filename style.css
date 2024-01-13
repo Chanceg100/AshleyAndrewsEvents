@@ -541,9 +541,9 @@ header .navbar a:hover{
     padding-top: 00rem;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
-    height: 900px;
-    border-radius: 0 0 400px 400px;
+    width: 400px;
+    height: 450px;
+    border-radius: 0 0 200px 200px;
     border-style: solid; padding: 10px;
     display: flex;
     padding-bottom: 1;
