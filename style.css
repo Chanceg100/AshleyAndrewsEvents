@@ -24,12 +24,13 @@
 
 html{
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow-x:scroll;
   scroll-padding-top: 6.5rem;
   scroll-behavior: smooth;
 }
 
 body{
+  position: absolute;
   background:var(--black);
 }
 
