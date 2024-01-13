@@ -536,6 +536,12 @@ header .navbar a:hover{
 
 @media (max-width:768px){
 
+  body{
+    display: flex;
+    justify-content: center;
+    background:var(--offwhite);
+  }
+
   .half-ellipse-image { 
 
     padding-top: 00rem;
