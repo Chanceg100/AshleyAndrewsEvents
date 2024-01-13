@@ -27,7 +27,7 @@
 html{
   font-size: 62.5%;
   overflow-x:scroll;
-  scroll-padding-top: 25rem;
+  scroll-padding-top: 10rem;
   scroll-behavior: smooth;
 }
 
@@ -38,7 +38,7 @@ body{
 }
 
 section{
-  padding:2rem 75%;
+  padding:0rem 75%;
 }
 
 
@@ -534,7 +534,8 @@ header .navbar a:hover{
 
 }
 
-@media (max-width:768px){
+/* @media (max-width:768px){
+
 
   #menu-bar{
     display: block;
@@ -597,7 +598,7 @@ header .navbar a:hover{
     width:100%;
   }
 
-}
+} */
 
 
 @media (max-width:450px){
