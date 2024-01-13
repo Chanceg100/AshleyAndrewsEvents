@@ -534,8 +534,56 @@ header .navbar a:hover{
 
 }
 
-/* @media (max-width:768px){
+@media (max-width:768px){
 
+  .half-ellipse-image { 
+
+    padding-top: 00rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 900px;
+    border-radius: 0 0 400px 400px;
+    border-style: solid; padding: 10px;
+    display: flex;
+    padding-bottom: 1;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .oval-logo-image {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 150px; left: 0; right: 0;
+    width: 200px;
+    height: 275px;
+    border-radius:  50%;
+    background-image: url(images/Logo.png);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+   
+  }
+  
+  
+  .main_header {
+    
+    font: small-caps;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 300px;
+    height: 275px;
+    font-size: 4200%;
+    font-weight: 20;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    
+    
+  }
 
   #menu-bar{
     display: block;
@@ -598,7 +646,7 @@ header .navbar a:hover{
     width:100%;
   }
 
-} */
+}
 
 
 @media (max-width:450px){
