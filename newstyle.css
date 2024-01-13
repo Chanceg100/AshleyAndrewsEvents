@@ -6,7 +6,9 @@
     --blue: #4faaff;
     --offwhite: #d4d8db;
 }
-
+@font-face {
+    font-family: ;
+}
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -25,13 +27,6 @@
 
 body {
     background:var(--offwhite);
-}
-
-.startlogo {
-    position: fixed;
-    
-    background:var(--offwhite);
-    align-items: center;
 }
 
 
@@ -55,4 +50,18 @@ body {
     background-size: contain;
     background-position: center;
   }
+
+
+.main_header {
+    position: fixed;
+    top: 1000px; left: 750px; right: 0;
+    width: 400px;
+    height: 550px;
+}
+
+.aboutme {
+    background:var(--offwhite);
+}
+
+
 
