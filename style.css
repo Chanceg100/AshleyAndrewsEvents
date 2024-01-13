@@ -51,8 +51,8 @@ section{
   padding-top: 00rem;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
-  height: 900px;
+  padding-left: 10rem;
+  height: 100vh ;
   border-radius: 0 0 400px 400px;
   border-style: solid; padding: 10px;
   display: flex;
