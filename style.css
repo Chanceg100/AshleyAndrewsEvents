@@ -44,14 +44,10 @@ section{
   margin-left: 60vh;
 }
 
-
-
 /* New Stuff */
 
-
-
+/* MainLogo */
 .half-ellipse-image { 
-
   padding-top: 00rem;
   width: 88vh;
   height: 100vh ;
@@ -61,7 +57,6 @@ section{
   padding-bottom: 1;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .oval-logo-image {
@@ -73,12 +68,9 @@ section{
   height: 550px;
   border-radius:  50%;
   display: flex;
- 
 }
 
-
 .main_header {
-  
   font: small-caps;
   text-align: center;
   margin-left: auto;
@@ -90,13 +82,10 @@ section{
   font-weight: 20;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  
-  
 }
 
-
+/* About Me */
 .aboutmebackground { 
-
   padding-top: 10rem;
   width: 88vh;
   height: 100vh ;
@@ -106,8 +95,6 @@ section{
   padding-bottom: 1;
   align-content: center;
   justify-content: space-between;
- 
-  
 }
 
 .aboutmeimage {
@@ -118,7 +105,127 @@ section{
   width: 70vh;
   height: 90vh;
   display: flex;
+}
 
+/* The Process */
+.theprocessbackground { 
+
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.theprocessimage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 225vh; left: 0; right: 0;
+  width: 70vh;
+  height: 90vh;
+  display: flex;
+}
+
+/* Silver Package*/
+.silverpkgbackground { 
+
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.silverpkgimage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 325vh; left: 0; right: 0;
+  width: 70vh;
+  height: 90vh;
+  display: flex;
+}
+
+/* Gold Package */
+.goldpkgbackground { 
+
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.goldpkgimage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 425vh; left: 0; right: 0;
+  width: 70vh;
+  height: 90vh;
+  display: flex;
+}
+
+/* Platinum Package */
+.platinumpkgbackground { 
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.platinumpkgimage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 525vh; left: 0; right: 0;
+  width: 70vh;
+  height: 90vh;
+  display: flex;
+}
+
+/* Additional Services */
+.additionalservices { 
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/* Client Reviews */
+.clientreviews { 
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
 }
 
 
@@ -583,6 +690,44 @@ header .navbar a:hover{
     display: flex;
   
   }
+
+  .theprocessimage {
+    position: absolute;
+    margin: 10vh;
+    top: 213vh; left: 0; right: 0;
+    width: 70vh;
+    height: 90vh;
+    display: flex;
+  }
+
+  .silverpkgimage {
+    position: absolute;
+    margin: 10vh;
+    top: 313vh; left: 0; right: 0;
+    width: 70vh;
+    height: 90vh;
+    display: flex;
+  }
+
+  .goldpkgimage {
+    position: absolute;
+    margin: 10vh;
+    top: 413vh; left: 0; right: 0;
+    width: 70vh;
+    height: 90vh;
+    display: flex;
+  }
+
+  .platinumpkgimage {
+    position: absolute;
+    margin: 10vh;
+    top: 513vh; left: 0; right: 0;
+    width: 70vh;
+    height: 90vh;
+    display: flex;
+  }
+
+
   /* body{
     display: flex;
     justify-content: center;
