@@ -107,30 +107,6 @@ section{
   display: flex;
 }
 
-/* The Process */
-.theprocessbackground { 
-
-  padding-top: 10rem;
-  width: 88vh;
-  height: 100vh ;
-  border-radius: 0 0 0 0;
-  border-style: solid; padding: 10px;
-  display: inline-block;
-  padding-bottom: 1;
-  align-content: center;
-  justify-content: space-between;
-}
-
-.theprocessimage {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 225vh; left: 0; right: 0;
-  width: 70vh;
-  height: 90vh;
-  display: flex;
-}
-
 /* Silver Package*/
 .silverpkgbackground { 
 
@@ -149,7 +125,7 @@ section{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 325vh; left: 0; right: 0;
+  top: 225vh; left: 0; right: 0;
   width: 70vh;
   height: 90vh;
   display: flex;
@@ -173,7 +149,7 @@ section{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 425vh; left: 0; right: 0;
+  top: 325vh; left: 0; right: 0;
   width: 70vh;
   height: 90vh;
   display: flex;
@@ -196,7 +172,7 @@ section{
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 525vh; left: 0; right: 0;
+  top: 425vh; left: 0; right: 0;
   width: 70vh;
   height: 90vh;
   display: flex;
@@ -691,7 +667,7 @@ header .navbar a:hover{
   
   }
 
-  .theprocessimage {
+  .silverpkgimage {
     position: absolute;
     margin: 10vh;
     top: 213vh; left: 0; right: 0;
@@ -700,7 +676,7 @@ header .navbar a:hover{
     display: flex;
   }
 
-  .silverpkgimage {
+  .goldpkgimage {
     position: absolute;
     margin: 10vh;
     top: 313vh; left: 0; right: 0;
@@ -709,7 +685,7 @@ header .navbar a:hover{
     display: flex;
   }
 
-  .goldpkgimage {
+  .platinumpkgimage {
     position: absolute;
     margin: 10vh;
     top: 413vh; left: 0; right: 0;
@@ -717,16 +693,7 @@ header .navbar a:hover{
     height: 90vh;
     display: flex;
   }
-
-  .platinumpkgimage {
-    position: absolute;
-    margin: 10vh;
-    top: 513vh; left: 0; right: 0;
-    width: 70vh;
-    height: 90vh;
-    display: flex;
-  }
-
+}
 
   /* body{
     display: flex;
