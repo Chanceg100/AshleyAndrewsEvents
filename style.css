@@ -27,18 +27,23 @@
 html{
   font-size: 62.5%;
   overflow-x:scroll;
-  scroll-padding-top: 10rem;
+  scroll-padding-top: 2rem;
   scroll-behavior: smooth;
 }
 
 body{
-  display: flex;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   background:var(--offwhite);
 }
 
 section{
-  padding:0rem 75%;
+  padding:0rem 0;
+  margin-left: 60vh;
+
+  
 }
 
 
@@ -95,8 +100,34 @@ section{
   
 }
 
-.aboutme {
-  background:var(--offwhite);
+
+.aboutmebackground { 
+
+  padding-top: 10rem;
+  width: 88vh;
+  height: 100vh ;
+  border-radius: 0 0 0 0;
+  border-style: solid; padding: 10px;
+  display: inline-block;
+  padding-bottom: 1;
+  align-content: center;
+  justify-content: space-between;
+ 
+  
+}
+
+.aboutmeimage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 125vh; left: 0; right: 0;
+  width: 70vh;
+  height: 90vh;
+  
+  
+
+  display: flex;
+
 }
 
 
